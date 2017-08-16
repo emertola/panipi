@@ -39,7 +39,7 @@ class AppForm extends Component {
         return (
         <div>
             <form onSubmit={this.handleSubmit}>
-                <Well>
+                <Well className="well-custom">
                     <FormGroup controlId="formControlsTextarea">
                         <FormControl componentClass="textarea" name="content" placeholder="Write here..." rows="5" value={this.state.content} required onChange={this.handleInPutChange} />
                     </FormGroup>

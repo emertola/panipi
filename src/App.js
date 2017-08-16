@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import {Row, Col} from 'react-bootstrap';
+import FontAwesome from 'react-fontawesome';
 
 import './App.css';
 
@@ -68,6 +69,17 @@ class App extends Component {
       <div>
         <Row>
           <Col xs={12} md={3}>
+            <Col xs={12}>
+              <br />
+              <FontAwesome name="quote-left" className="logo logo-symbol" />{' '}
+                <span className="logo logo-font">
+                  Panipi
+                </span>
+              {' '}<FontAwesome name="quote-right" className="logo logo-symbol" />
+              <br />
+              <br />
+            </Col>
+            
             <AppForm
               addToList={this.addToList} />
           </Col>
