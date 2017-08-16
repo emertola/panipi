@@ -71,7 +71,7 @@ class App extends Component {
             <AppForm
               addToList={this.addToList} />
           </Col>
-          <Col xs={12} md={5}>
+          <Col xs={12} md={4}>
             <AppList
               lists={this.state.lists}
               onFavorite={this.onFavorite} />
