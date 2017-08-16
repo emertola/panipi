@@ -26,11 +26,15 @@
 
 .like-custom {
   cursor: pointer;
-  color: crimson;
+  color: lightgrey;
   font-size: 25px;
   display: inline-block;
 }
 
 .clearfix {
   clear: both;
+}
+
+.favorite {
+  color: crimson;
 }

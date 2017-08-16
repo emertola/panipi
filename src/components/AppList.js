@@ -18,7 +18,7 @@ class AppList extends Component {
                             <ListGroupItem key={list.id}>
                                 <h4><em>"{list.content}"</em></h4>
                                 <h5>-- {list.reference}</h5>
-                                { list.favorite ? <span onClick={() => onFavorite(list.id)} className="glyphicon glyphicon-heart like-custom pull-right"></span> : <span onClick={() => onFavorite(list.id)} className="glyphicon glyphicon-heart-empty like-custom pull-right"></span>}
+                                { list.favorite ? <span onClick={() => onFavorite(list.id)} className="glyphicon glyphicon-heart favorite like-custom pull-right"></span> : <span onClick={() => onFavorite(list.id)} className="glyphicon glyphicon-heart like-custom pull-right"></span>}
                                 <div className="clearfix"></div>
                             </ListGroupItem>
                         )
