@@ -23,7 +23,7 @@ class App extends Component {
           {
               id: 2,
               content: "Whatever you fail to manage, you will lose.",
-              reference: "Bishop Oriel Ballano",
+              reference: "Anonymous",
               favorite: false
           }
       ]
