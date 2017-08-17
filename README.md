@@ -1,6 +1,6 @@
 ## Panipi
 
-A simple quote generator app created using ReactJS, with a like/favorite feature.
+A simple quote generator app (much like a "to-do" app) created using ReactJS, with a like/favorite feature.
 
 
 
